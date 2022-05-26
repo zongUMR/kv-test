@@ -1,0 +1,29 @@
+{
+  "name": "kv-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "run:dev": "nodemon src/app.js",
+    "run:prod": "node scripts/setupTable.js && node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-json": "^2.0.2",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.6.5",
+    "eslint": "^8.16.0",
+    "nodemon": "^2.0.16"
+  },
+  "engines": {
+    "node": ">16.x"
+  }
+}
