@@ -25,6 +25,5 @@ export const RetrieveUserData = async (
   const queryString = `select value from ${TABLE_NAME} where key='${key}' and "createdAt" <= to_timestamp(${createdAt})  order by "createdAt" desc`;
   const { rows } = await pool.query(queryString);
 
-  console.log(queryString, '\n', rows);
   return rows[0];
 };

@@ -6,7 +6,6 @@ const { Pool } = pkg;
 
 const pool = new Pool({
   user: 'dbuser',
-  host: 'localhost',
   database: 'postgres',
 });
 
