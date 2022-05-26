@@ -14,7 +14,7 @@ This project build up a Node.js server for storing and retrieving according to t
 1. `git clone https://github.com/zongUMR/kv-test.git`
 2. `cd kv-test && npm install`
 3. Run you postgresql database under the user **dbuser** and database `postgres`: `psql -d postgres -U dbuser`
-4. `npm run run:dev`, code will run the server at `localhost:3000`
+4. `npm run run:prod`, code will run the server at `localhost:3000`
 
 Now you can request the apis from the server
 
