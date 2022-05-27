@@ -7,6 +7,7 @@ const { Pool } = pkg;
 const pool = new Pool({
   user: 'dbuser',
   database: 'postgres',
+  host: process.env.db_host || 'localhost',
 });
 
 const TABLE_NAME = 'data_store';

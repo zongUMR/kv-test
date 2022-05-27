@@ -3,7 +3,7 @@ const { Pool } = pkg;
 
 const pool = new Pool({
   user: 'dbuser',
-  host: 'localhost',
+  host: process.env.db_host || 'localhost',
   database: 'postgres',
 });
 
