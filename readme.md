@@ -32,7 +32,7 @@ Now you can request the apis from the server, `localhost:3000`
 
 ## APIS
 
-- local test: `http://localhost/{insert/get}`
+- local test: `http://localhost:3000/{insert/get}`
 - cloud test: `${cloud_ip}/api/{insert/get}`
 
 ### Create a record
