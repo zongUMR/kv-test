@@ -2,6 +2,12 @@
 
 This project build up a Node.js server for storing and retrieving according to the assessment
 
+## Tech stacks
+
+- PostgreSQL
+- Node.js, Koa
+- Docker
+
 ## Pre-requirements
 
 ### Using Docker
@@ -33,7 +39,7 @@ Now you can request the apis from the server, `localhost:3000`
 ## APIS
 
 - local test: `http://localhost:3000/{insert/get}`
-- cloud test: `${cloud_ip}/api/{insert/get}`
+- cloud test: `http://{cloud_ip}/api/{insert/get}`
 
 ### Create a record
 
